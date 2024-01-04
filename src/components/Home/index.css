@@ -1,0 +1,107 @@
+.home {
+  display: flex;
+  flex-direction: row;
+}
+
+.home-cont {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  padding: 20px;
+  padding-top: 0px;
+  margin-top: 0px;
+  /* overflow-y: auto; */
+}
+
+.banner-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png');
+  background-size: cover;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  height: 20vh;
+  flex-shrink: 0;
+}
+
+.nxt-watch-logo {
+  width: 120px;
+  height: 30px;
+}
+
+.close-icon {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  margin-bottom: 0px;
+  align-self: flex-end;
+}
+
+.get-btn {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #000000;
+  color: #000000;
+  background: none;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  min-width: 150px;
+  flex-grow: 0;
+  padding: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+.sidebar-options-list {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+
+.sidebar-option-cont {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.option-name {
+  margin-left: 16px;
+  font-size: 16px;
+  font-family: 'Roboto';
+  color: #231f20;
+  font-weight: 500;
+}
+
+.search-input-cont {
+  width: 100%;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  padding-left: 16px;
+  border-radius: 2px;
+  width: 50%;
+  padding: 8px;
+  height: 30px;
+}
+.search-btn {
+  height: 30px;
+}
